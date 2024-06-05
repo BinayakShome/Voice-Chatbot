@@ -72,7 +72,7 @@ if __name__== "__main__":
 
         elif 'mail' in query:
             speak("Open ing your g mails...")
-            webbrowser.open("https://mail.google.com//mail//u//0//?tab=rm&ogbl#inbox")
+            webbrowser.open("https://mail.google.com//mail")
 
         elif 'time' in query:
             strtime = datetime.datetime.now().strftime("%H:%M:%S")
@@ -96,6 +96,7 @@ if __name__== "__main__":
 
         elif 'vs code' in query:
             speak("Opening V.S. Code...")
+            #Use your default vs code location
             vs_code='"C:\\Users\\KIIT0001\\Desktop\\Visual Studio Code.lnk"'
             os.startfile(os.path.join(vs_code))
 
